@@ -54,7 +54,7 @@ export default function maskedMaze(
   function next() {
     if (!maskResolved) return;
 
-    let i = 20;
+    let i = 100;
     while (--i > 0) {
       const current = stack[stack.length - 1];
       if (!current) {
