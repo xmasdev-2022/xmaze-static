@@ -1,7 +1,9 @@
 import { Point, sample } from "./util";
 import grid, { Cell } from "./grid";
 import pixelsFromImage from "./pixelsFromImage";
-import xmas from "./merry-xmas.png";
+// import xmas from "./merry-xmas.png";
+// import xmas from "./xmasdev_vert.png";
+import xmas from "./xmasdev_horiz.png";
 import pixelsFromText from "./pixelsFromText";
 
 export default function maskedMaze(
@@ -54,7 +56,7 @@ export default function maskedMaze(
   function next() {
     if (!maskResolved) return;
 
-    let i = 100;
+    let i = 20;
     while (--i > 0) {
       const current = stack[stack.length - 1];
       if (!current) {
