@@ -1,9 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -12,4 +8,3 @@ updates:
       #time: "08:00"
       #timezone: Europe/Rome
     open-pull-requests-limit: 20
-    versioning-strategy: increase
