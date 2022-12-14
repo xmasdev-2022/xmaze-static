@@ -21,6 +21,8 @@ export default function App() {
         <div style={{ visibility: showFooter ? "visible" : "hidden" }}>
           greetings&nbsp;from&nbsp;
           <a href="https://github.com/dchowitz/xmaze">dchowitz</a>
+          &nbsp;and&nbsp;
+          <a href="https://github.com/xmasdev-2022">Santa Claus</a>
         </div>
         <pre>
           build {import.meta.env.VITE_DATE} ({gitHash.slice(0, 6)})
